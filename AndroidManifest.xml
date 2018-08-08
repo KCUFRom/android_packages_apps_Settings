@@ -3278,7 +3278,7 @@
         <!-- KCUFSettings -->
         <activity android:name=".Settings$KCUFSettingsActivity"
             android:label="@string/kcuf_settings_title"
-            android:icon="@drawable/ic_settings_kcuf"
+            android:icon="@drawable/ic_homepage_kcuf"
             android:taskAffinity="">
             <intent-filter android:priority="1">
                 <action android:name="com.kcuf.settings.KCUFSettings" />
