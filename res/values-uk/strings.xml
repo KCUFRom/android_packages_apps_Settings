@@ -4291,4 +4291,6 @@
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"Додатки на телефоні бачать назву пристрою. Її також можуть бачити інші люди, коли ви під’єднуєтеся до пристроїв Bluetooth або налаштовуєте точку доступу Wi-Fi."</string>
     <string name="devices_title" msgid="7701726109334110391">"Пристрої"</string>
     <string name="display_cutout_emulation_device_default" msgid="7957250558326167503">"За умовчанням"</string>
+    <string name="qtifeedback_settings_title">Відгук про обладнання</string>
+    <string name="qtifeedback_settings_subtitle">Надсилання звітів Qualcomm Technologies, Inc</string>
 </resources>

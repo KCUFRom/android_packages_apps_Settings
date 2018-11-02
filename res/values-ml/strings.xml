@@ -4153,4 +4153,6 @@
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"നിങ്ങളുടെ ഫോണിലെ അപ്ലിക്കേഷനുകൾക്ക് നിങ്ങളുടെ ഉപകരണത്തിന്റെ പേര് ദൃശ്യമാണ്. വൈഫൈ ഹോട്ട്‌സ്‌പോട്ട് സജ്ജീകരിക്കുമ്പോഴോ Bluetooth ഉപകരണങ്ങളുമായി കണക്‌റ്റ് ചെയ്യുമ്പോഴോ, ഇത് മറ്റ് ആളുകൾക്കും കാണാനായേക്കും."</string>
     <string name="devices_title" msgid="7701726109334110391">"ഉപകരണങ്ങൾ"</string>
     <string name="display_cutout_emulation_device_default" msgid="7957250558326167503">"ഡിഫോൾട്ട്"</string>
+    <string name="qtifeedback_settings_title">ഹാർഡ്‌വെയർ ഫീഡ്‌ബാക്ക്</string>
+    <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Inc റിപ്പോർട്ടുചെയ്യൽ</string>
 </resources>

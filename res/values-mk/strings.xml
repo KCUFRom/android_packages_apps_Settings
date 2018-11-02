@@ -4153,4 +4153,6 @@
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"Името на уредот е видливо за апликациите на телефонот. Може да го видат и други луѓе кога ќе се поврзете со уреди со Bluetooth или кога ќе поставите Wi-Fi точка на пристап."</string>
     <string name="devices_title" msgid="7701726109334110391">"Уреди"</string>
     <string name="display_cutout_emulation_device_default" msgid="7957250558326167503">"Стандардно"</string>
+    <string name="qtifeedback_settings_title">Повратни информации за хардверот</string>
+    <string name="qtifeedback_settings_subtitle">Праќање извештаи на компанијата Qualcomm Technologies, Inc</string>
 </resources>

@@ -4157,4 +4157,6 @@
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"端末名がスマートフォンのアプリに表示されます。また、Bluetooth デバイスに接続したり Wi-Fi アクセス ポイントを設定したりすると、他のユーザーも端末名を確認できるようになります。"</string>
     <string name="devices_title" msgid="7701726109334110391">"端末"</string>
     <string name="display_cutout_emulation_device_default" msgid="7957250558326167503">"デフォルト"</string>
+    <string name="qtifeedback_settings_title"> ハードウェアに関するフィードバック</string>
+    <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Incレポート</string>
 </resources>

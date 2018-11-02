@@ -50,6 +50,8 @@ import com.android.settings.core.InstrumentedFragment;
 import com.android.settings.enterprise.ActionDisabledByAdminDialogHelper;
 import com.android.settings.network.ApnSettings;
 import com.android.settingslib.RestrictedLockUtils;
+import com.android.settingslib.bluetooth.CachedBluetoothDeviceManager;
+import com.android.settingslib.bluetooth.LocalBluetoothManager;
 
 /**
  * Confirm and execute a reset of the network settings to a clean "just out of the box"
@@ -147,10 +149,18 @@ public class ResetNetworkConfirm extends InstrumentedFragment {
                 BluetoothAdapter btAdapter = btManager.getAdapter();
                 if (btAdapter != null) {
                     btAdapter.factoryReset();
+                    LocalBluetoothManager mLocalBtManager =
+                                      LocalBluetoothManager.getInstance(context, null);
+                    if (mLocalBtManager != null) {
+                        CachedBluetoothDeviceManager cachedDeviceManager =
+                                            mLocalBtManager.getCachedDeviceManager();
+                        cachedDeviceManager.clearAllDevices();
+                    }
                 }
             }
 
-            ImsManager.factoryReset(context);
+            ImsManager.getInstance(context,
+                     SubscriptionManager.getPhoneId(mSubId)).factoryReset();
             restoreDefaultApn(context);
             esimFactoryReset(context, context.getPackageName());
             // There has been issues when Sms raw table somehow stores orphan

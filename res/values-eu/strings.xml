@@ -4153,4 +4153,6 @@
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"Mugikorreko aplikazioek gailuaren izena ikus dezakete. Halaber, jendeak ere ikus dezake Bluetooth gailuetara konektatzean edo Wi-Fi sare publiko bat konfiguratzean."</string>
     <string name="devices_title" msgid="7701726109334110391">"Gailuak"</string>
     <string name="display_cutout_emulation_device_default" msgid="7957250558326167503">"Lehenetsia"</string>
+    <string name="qtifeedback_settings_title">Hardwareri buruzko iritzia</string>
+    <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Inc enpresaren txostenak</string>
 </resources>

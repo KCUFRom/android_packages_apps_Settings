@@ -4291,4 +4291,6 @@
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"У приложений на телефоне есть доступ к названию устройства. Его могут видеть другие пользователи, когда вы подключаетесь к устройствам по Bluetooth или настраиваете точку доступа Wi-Fi."</string>
     <string name="devices_title" msgid="7701726109334110391">"Устройства"</string>
     <string name="display_cutout_emulation_device_default" msgid="7957250558326167503">"По умолчанию"</string>
+    <string name="qtifeedback_settings_title">Отзывы по оборудованию</string>
+    <string name="qtifeedback_settings_subtitle"> Отчеты Qualcomm Technologies, Inc</string>
 </resources>

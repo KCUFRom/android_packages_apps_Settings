@@ -421,6 +421,8 @@
     <string name="connected_device_connected_title">Currently connected</string>
     <!-- Title for connected device group [CHAR LIMIT=none]-->
     <string name="connected_device_saved_title">Saved devices</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Title for preference to add a device [CHAR LIMIT=none] [BACKUP_MESSAGE_ID=7803521577708810621] -->
     <string name="connected_device_add_device_title">Add device</string>
     <!-- Summary for preference to add a device [CHAR LIMIT=none]-->
@@ -1710,6 +1712,8 @@
 
     <!-- Wifi Display settings. The title of the screen. [CHAR LIMIT=40] -->
     <string name="wifi_display_settings_title">Cast</string>
+    <!-- Checkbox title for enabling particual wifi as shared -->
+    <string name="share_this_wifi">Extend Wi-Fi coverage</string>
     <!-- Wifi Display settings. The title of a menu item to enable wireless display [CHAR LIMIT=40] -->
     <string name="wifi_display_enable_menu_item">Enable wireless display</string>
     <!-- Wifi Display settings. Text that appears when scanning for devices is finished and no nearby device was found [CHAR LIMIT=40]-->
@@ -2724,6 +2728,10 @@
     <string name="sim_change_succeeded">SIM PIN changed successfully</string>
     <!-- SIM card lock settings screen, toast after not entering correct SIM PIN [CHAR LIMIT=40] -->
     <string name="sim_lock_failed">Can\u2019t change SIM card lock state.\nPossibly incorrect PIN.</string>
+    <!-- SIM card lock settings screen, toast after disabling PIN failed from modem -->
+    <string name="sim_pin_disable_failed">Can\'t disable PIN.</string>
+    <!-- SIM card lock settings screen, toast after enabling PIN failed from modem -->
+    <string name="sim_pin_enable_failed">Can\'t enable PIN.</string>
     <!-- SIM card lock settings screen, SIM PIN dialog button labels: [CHAR LIMIT=40] -->
     <string name="sim_enter_ok">OK</string>
     <!-- SIM card lock settings screen, SIM PIN dialog button labels: [CHAR LIMIT=40] -->
@@ -9960,6 +9968,18 @@
     <!-- UI debug setting: preference summary - describes the behavior of forcing full raw GNSS satellite measurements [CHAR LIMIT=NONE] -->
     <string name="enable_gnss_raw_meas_full_tracking_summary">Track all GNSS constellations and frequencies with no duty cycling</string>
 
+    <!-- apn names for carriers -->
+    <string name="APN_NAME_CMNET">CMNET</string>
+    <string name="APN_NAME_CMWAP">CMWAP</string>
+    <string name="APN_NAME_CMMMS">CMMMS</string>
+    <string name="APN_NAME_CUWAP">China Unicom WAP</string>
+    <string name="APN_NAME_CUNET">China Unicom NET</string>
+    <string name="APN_NAME_CUMMS">China Unicom MMS</string>
+    <string name="APN_NAME_CUSUPL">China Unicom AGPS</string>
+    <string name="APN_NAME_CTNET">CTNET</string>
+    <string name="APN_NAME_CTWAP">CTWAP</string>
+    <string name="APN_NAME_CTLTE">ctlte</string>
+    <string name="APN_NAME_CTMMS">CTWAP</string>
     <!-- UI debug setting: preference title - show all crash dialogs [CHAR LIMIT=60] -->
     <string name="show_first_crash_dialog">Always show crash dialog</string>
     <!-- UI debug setting: preference summary - describes the behavior of showing a dialog every time an app crashes [CHAR LIMIT=NONE] -->
@@ -10085,4 +10105,10 @@
 
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
+    <string name="select_sim_card">Select SIM card</string>
+    <string name="qtifeedback_settings_title">Hardware Feedback</string>
+    <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Inc Reporting</string>
+    <string name="qtifeedback_intent_action">com.qti.smq.snapdragonSettings</string>
+    <string name="qtifeedback_package">com.qti.smq.Feedback</string>
+    <string name="qtifeedback_activity">com.qti.smq.ui.QtiFeedbackActivity</string>
 </resources>

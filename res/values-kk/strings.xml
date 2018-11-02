@@ -4153,4 +4153,6 @@
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"Құрылғыңыздың аты телефоныңыздағы қолданбаларға көрінеді. Сонымен қатар Bluetooth құрылғыларына қосылғанда немесе Wi-Fi хотспотын орнатқанда, басқа адамдарға көрінуі мүмкін."</string>
     <string name="devices_title" msgid="7701726109334110391">"Құрылғылар"</string>
     <string name="display_cutout_emulation_device_default" msgid="7957250558326167503">"Әдепкі"</string>
+    <string name="qtifeedback_settings_title"> Жабдыққа байланысты пікір</string>
+    <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Inc хабарламасы</string>
 </resources>
